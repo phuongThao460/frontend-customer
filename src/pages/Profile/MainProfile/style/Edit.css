@@ -1,0 +1,55 @@
+.btn-container {
+  width: 563px;
+  display: inline-block;
+  text-align: end;
+}
+.address-profile{
+  margin-top: 30px;
+}
+.td-label {
+  font-size: 20px;
+  text-align: end;
+  color: #000;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.td-input {
+  padding-bottom: 20px;
+}
+.name input[type="text"],
+.phone input[type="number"],
+.email input[type="email"],
+.address-profile input[type="text"],
+.address-profile .city,
+.address-profile .District,
+.address-profile .Ward {
+  font-size: 20px;
+  border: 1px solid #d8d3d0;
+  border-radius: 2px 2px 2px 2px;
+  margin: 0;
+  color: #858585;
+  height: 100%;
+  padding: 5px 10px 5px 10px;
+  width: 421px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: 1px solid #ccc;
+}
+
+select:focus, select::after{
+  outline: 1px solid #ccc;
+}
+select option{
+  outline: 1px solid #ccc;
+}

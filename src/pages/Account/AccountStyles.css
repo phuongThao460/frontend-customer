@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+.container-Signup {
+  font-family: "Nunito", sans-serif;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+.title-Signup {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #ffefd5;
+  color: #f78248;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.form-wrapper{
+  margin-top: 30px;
+}
+.wrapper-signup {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.Info-form {
+  background-color: #fffee3;
+  width: 350px;
+  min-height: 400px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+
+.title-form {
+  text-align: center;
+  color: coral;
+  padding-top: 20px;
+}
+
+.name,
+.email,
+.password,
+.Gender,
+.phone {
+  margin: 10px;
+  color: #969292;
+  font-size: 16px;
+}
+
+.Address-form {
+  background-color: #fffee3;
+  width: 350px;
+  min-height: 400px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.cus-address,
+.cus-city,
+.cus-district,
+.cus-ward {
+  margin: 10px;
+  color: #969292;
+  font-size: 16px;
+}
+.container {
+  /* background-color:#f80759 ; */
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #FFFEE3;
+  width: 350px;
+  min-height: 446px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.name,
+.email,
+.password {
+  color: #969292;
+  font-size: 16px;
+}
+.password {
+  margin-bottom: 40px;
+}
+
+.password input[type="password"]:focus{
+  outline: 1px solid #ccc;
+}
+.input {
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+.submit {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  color: #fff;
+  padding: 10px 60px;
+  background: linear-gradient(to right, #e69721, #ece35f);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+.form-success {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  min-width: 370px;
+  color: #f80759;
+}
+.signuplink {
+  margin-top: 30px;
+  text-align: center;
+  color: #f59841;
+  font-size: 14px;
+}
